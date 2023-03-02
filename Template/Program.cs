@@ -1,9 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Template.Data.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<TemplateContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("TemplateDB")).EnableSensitiveDataLogging());
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
