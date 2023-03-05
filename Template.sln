@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{46F86E4B-4465-4659-9234-DDD3AF34525C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "Template\Template.csproj", "{46F86E4B-4465-4659-9234-DDD3AF34525C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-WEB", "1-WEB", "{08BEC6DA-AC60-4281-9472-C2366EAE3D4E}"
 EndProject
@@ -13,15 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{98
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{477AFC50-1CAC-469F-97F4-17BD7EDAD1EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Application", "Template.Application\Template.Application.csproj", "{4028623D-995B-46D9-A14A-7FAE52099131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Application", "Template.Application\Template.Application.csproj", "{4028623D-995B-46D9-A14A-7FAE52099131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Domain", "Template.Domain\Template.Domain.csproj", "{C720C61D-C228-4326-9494-C00ABC8F1D55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Domain", "Template.Domain\Template.Domain.csproj", "{C720C61D-C228-4326-9494-C00ABC8F1D55}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{57276910-BC15-4E63-B9F7-C0B0E2EC7706}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{A7F60A04-1562-4C63-A721-1554EC67C491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Data", "Template.Data\Template.Data.csproj", "{3B153D02-7C20-484D-AA2C-370F5A9701A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Data", "Template.Data\Template.Data.csproj", "{3B153D02-7C20-484D-AA2C-370F5A9701A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.IoC", "Template.IoC\Template.IoC.csproj", "{EA743067-C0EB-4948-B40C-371EDAA88A87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3B153D02-7C20-484D-AA2C-370F5A9701A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B153D02-7C20-484D-AA2C-370F5A9701A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B153D02-7C20-484D-AA2C-370F5A9701A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA743067-C0EB-4948-B40C-371EDAA88A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA743067-C0EB-4948-B40C-371EDAA88A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA743067-C0EB-4948-B40C-371EDAA88A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA743067-C0EB-4948-B40C-371EDAA88A87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +62,7 @@ Global
 		{57276910-BC15-4E63-B9F7-C0B0E2EC7706} = {477AFC50-1CAC-469F-97F4-17BD7EDAD1EE}
 		{A7F60A04-1562-4C63-A721-1554EC67C491} = {477AFC50-1CAC-469F-97F4-17BD7EDAD1EE}
 		{3B153D02-7C20-484D-AA2C-370F5A9701A2} = {57276910-BC15-4E63-B9F7-C0B0E2EC7706}
+		{EA743067-C0EB-4948-B40C-371EDAA88A87} = {A7F60A04-1562-4C63-A721-1554EC67C491}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C517171E-02D3-42CD-B8BA-362649FB4C27}

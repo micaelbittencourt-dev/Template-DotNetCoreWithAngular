@@ -28,9 +28,18 @@ namespace Template.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DateUpdated")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -45,7 +54,9 @@ namespace Template.Data.Migrations
                         new
                         {
                             Id = new Guid("6e529efd-7a43-494f-89ee-7736ae01f71f"),
+                            DateCreated = new DateTime(2023, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "userdefault@template.com",
+                            IsDeleted = false,
                             Name = "User Default"
                         });
                 });

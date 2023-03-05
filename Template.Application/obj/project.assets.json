@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Template.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Template.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Template.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Template.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Template.Domain/Template.Domain.csproj",
+      "msbuildProject": "../Template.Domain/Template.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Template.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\NTB006-ADM\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\NTB006-ADM\\source\\repos\\Template\\Template.Domain\\Template.Domain.csproj": {
+              "projectPath": "C:\\Users\\NTB006-ADM\\source\\repos\\Template\\Template.Domain\\Template.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

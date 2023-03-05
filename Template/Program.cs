@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Template.Data.Context;
+using Template.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<TemplateContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("TemplateDB")).EnableSensitiveDataLogging());
+
+NativeInjector.RegisterServices(builder.Services);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -14,7 +14,7 @@ namespace Template.Data.Extensions
         {
             builder.Entity<User>()
                 .HasData(
-                    new User { Id = Guid.Parse("6e529efd-7a43-494f-89ee-7736ae01f71f"), Name = "User Default", Email = "userdefault@template.com"}
+                    new User { Id = Guid.Parse("6e529efd-7a43-494f-89ee-7736ae01f71f"), Name = "User Default", Email = "userdefault@template.com", DateCreated = new DateTime(2023, 03, 05), DateUpdated = null, IsDeleted = false}
                 );
             return builder;
         }

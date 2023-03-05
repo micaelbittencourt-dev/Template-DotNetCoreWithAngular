@@ -8,8 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Interfaces\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template.Domain\Template.Domain.csproj" />
   </ItemGroup>
 
 </Project>
