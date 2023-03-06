@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Template.Application.AutoMapper;
 using Template.Data.Context;
 using Template.IoC;
 
@@ -11,6 +12,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<TemplateContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("TemplateDB")).EnableSensitiveDataLogging());
 
 NativeInjector.RegisterServices(builder.Services);
+
+builder.Services.AddAutoMapper(typeof(AutoMapperSetup));
 
 var app = builder.Build();
 
