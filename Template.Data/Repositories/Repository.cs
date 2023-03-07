@@ -230,7 +230,7 @@ namespace Template.Data.Repositories
         {
             try
             {
-                return DbSet.Where(where);
+                return DbSet.Where(where).AsNoTracking();
             }
             catch (Exception)
             {
