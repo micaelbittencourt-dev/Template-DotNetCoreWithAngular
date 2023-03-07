@@ -1,0 +1,15 @@
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\bin\Debug\net6.0\Template.Auth.deps.json
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\bin\Debug\net6.0\Template.Auth.dll
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\bin\Debug\net6.0\Template.Auth.pdb
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\bin\Debug\net6.0\Template.Domain.dll
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\bin\Debug\net6.0\Template.Domain.pdb
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\Template.Auth.csproj.AssemblyReference.cache
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\Template.Auth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\Template.Auth.AssemblyInfoInputs.cache
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\Template.Auth.AssemblyInfo.cs
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\Template.Auth.csproj.CoreCompileInputs.cache
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\Template.Auth.csproj.CopyComplete
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\Template.Auth.dll
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\refint\Template.Auth.dll
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\Template.Auth.pdb
+C:\Users\NTB006-ADM\source\repos\Template\Template.Auth\obj\Debug\net6.0\ref\Template.Auth.dll

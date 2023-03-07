@@ -17,3 +17,5 @@ C:\Users\NTB006-ADM\source\repos\Template\Template.IoC\obj\Debug\net6.0\Template
 C:\Users\NTB006-ADM\source\repos\Template\Template.IoC\obj\Debug\net6.0\refint\Template.IoC.dll
 C:\Users\NTB006-ADM\source\repos\Template\Template.IoC\obj\Debug\net6.0\Template.IoC.pdb
 C:\Users\NTB006-ADM\source\repos\Template\Template.IoC\obj\Debug\net6.0\ref\Template.IoC.dll
+C:\Users\NTB006-ADM\source\repos\Template\Template.IoC\bin\Debug\net6.0\Template.Auth.dll
+C:\Users\NTB006-ADM\source\repos\Template\Template.IoC\bin\Debug\net6.0\Template.Auth.pdb
