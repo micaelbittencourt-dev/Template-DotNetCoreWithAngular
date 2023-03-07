@@ -1,0 +1,12 @@
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\bin\Debug\net6.0\Template.Swagger.deps.json
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\bin\Debug\net6.0\Template.Swagger.dll
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\bin\Debug\net6.0\Template.Swagger.pdb
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\obj\Debug\net6.0\Template.Swagger.csproj.AssemblyReference.cache
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\obj\Debug\net6.0\Template.Swagger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\obj\Debug\net6.0\Template.Swagger.AssemblyInfoInputs.cache
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\obj\Debug\net6.0\Template.Swagger.AssemblyInfo.cs
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\obj\Debug\net6.0\Template.Swagger.csproj.CoreCompileInputs.cache
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\obj\Debug\net6.0\Template.Swagger.dll
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\obj\Debug\net6.0\refint\Template.Swagger.dll
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\obj\Debug\net6.0\Template.Swagger.pdb
+C:\Users\NTB006-ADM\source\repos\Template\Template.Swagger\obj\Debug\net6.0\ref\Template.Swagger.dll

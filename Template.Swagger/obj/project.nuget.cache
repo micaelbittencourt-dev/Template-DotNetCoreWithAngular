@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "O5ziAWjl4LZKp8/CPb5gPsYqTu9K5mpMd942WgzLg+N46J02F5Bwn3MYT4g2EUV1CW4uJ6Y+BmXDcnuGwo50uw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NTB006-ADM\\source\\repos\\Template\\Template.Swagger\\Template.Swagger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NTB006-ADM\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\NTB006-ADM\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\NTB006-ADM\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\NTB006-ADM\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
